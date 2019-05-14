@@ -1,0 +1,1 @@
+# wazuh-landing-page
