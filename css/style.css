@@ -1,0 +1,574 @@
+@font-face {
+    font-family: 'wazuh-icons';
+    src: url('../fonts/wazuh-icons.eot?eahygt');
+    src: url('../fonts/wazuh-icons.eot?eahygt#iefix') format('embedded-opentype'),
+        url('../fonts/wazuh-icons.ttf?eahygt') format('truetype'),
+        url('../fonts/wazuh-icons.woff?eahygt') format('woff'),
+        url('../fonts/wazuh-icons.svg?eahygt#wazuh-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*{
+    box-sizing:border-box;
+}
+
+[class^="wico-"],
+[class*=" wico-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'wazuh-icons' !important;
+    speak: none;
+    /* font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1; */
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.wico-clock:before {
+    content: "\e925";
+}
+
+.wico-coffee:before {
+    content: "\e926";
+}
+
+.wico-moving-up:before {
+    content: "\e927";
+}
+
+.wico-docs:before {
+    content: "\e91f";
+}
+
+.wico-github:before {
+    content: "\e920";
+}
+
+.wico-maillist:before {
+    content: "\e921";
+}
+
+.wico-slack:before {
+    content: "\e922";
+}
+
+.wico-team:before {
+    content: "\e923";
+}
+
+.wico-training-hat:before {
+    content: "\e924";
+}
+
+.wico-agent:before {
+    content: "\e900";
+}
+
+.wico-analytic:before {
+    content: "\e901";
+}
+
+.wico-aresponse:before {
+    content: "\e902";
+}
+
+.wico-branch:before {
+    content: "\e903";
+}
+
+.wico-cloud:before {
+    content: "\e904";
+}
+
+.wico-compliance-full:before {
+    content: "\e905";
+}
+
+.wico-compliance:before {
+    content: "\e906";
+}
+
+.wico-config:before {
+    content: "\e907";
+}
+
+.wico-deploy:before {
+    content: "\e908";
+}
+
+.wico-fileint:before {
+    content: "\e909";
+}
+
+.wico-help-hands:before {
+    content: "\e90a";
+}
+
+.wico-help:before {
+    content: "\e90b";
+}
+
+.wico-incident-full:before {
+    content: "\e90c";
+}
+
+.wico-incident:before {
+    content: "\e90d";
+}
+
+.wico-integr:before {
+    content: "\e90e";
+}
+
+.wico-intrusion-full:before {
+    content: "\e90f";
+}
+
+.wico-intrusion:before {
+    content: "\e910";
+}
+
+.wico-log:before {
+    content: "\e911";
+}
+
+.wico-logdata:before {
+    content: "\e912";
+}
+
+.wico-manager:before {
+    content: "\e913";
+}
+
+.wico-policy:before {
+    content: "\e914";
+}
+
+.wico-saas:before {
+    content: "\e915";
+}
+
+.wico-siem:before {
+    content: "\e916";
+}
+
+.wico-start:before {
+    content: "\e917";
+}
+
+.wico-support:before {
+    content: "\e918";
+}
+
+.wico-training:before {
+    content: "\e919";
+}
+
+.wico-trojan:before {
+    content: "\e91a";
+}
+
+.wico-vulne-full:before {
+    content: "\e91b";
+}
+
+.wico-vulne:before {
+    content: "\e91c";
+}
+
+.wico-wazuh:before {
+    content: "\e91d";
+}
+
+.wico-whitelist:before {
+    content: "\e91e";
+}
+
+
+
+/*=========================
+Structure elements
+===========================*/
+
+
+@media (max-width: 992px) {
+    .row{
+        padding:0 0%;
+    }    
+}
+
+@media (min-width: 992px) {
+    .row{
+        padding:0 10%;
+    }    
+}
+
+@media (min-width: 1300px) {
+    .row{
+        padding:0 20%;
+    }    
+}
+
+@media (min-width: 1500px) {
+    .row{
+        padding:0 25%;
+    }    
+}
+
+
+/*=========================
+Section 1
+===========================*/
+
+.section-1 {
+    background: url('../images/wazuh_bg_head.png');  
+    background-size:100% 100%; 
+}
+
+.section-1 .navbar{
+    background:transparent;
+}
+
+.section-1 .navbar img {
+    width:160px;
+    cursor:pointer;
+}
+
+.top-bar ul{
+    margin-top:1rem;
+}
+
+.top-bar ul li {
+    float: left;
+    cursor:pointer;
+}
+
+.top-bar ul li:not(:last-child){
+    margin-right:1rem;
+}
+
+.section-1 ul li a{
+    color:white!important;
+    font-size:1.4rem;
+    padding: 0 .5rem;
+}
+
+.section-1 .navbar ul li:not(:last-child){
+    margin-right:5px;
+}
+
+.section-1 h1{
+    font-weight:300;
+}
+
+.section-1 p{
+    line-height: 30px;
+}
+
+.navbar .nav-link{
+    animation: all .6s ease;
+    border-radius: 7px;
+    border:1px solid transparent;
+}
+
+.navbar .nav-link.active{
+    border-color:white;
+}
+
+.section-1 .button {
+    padding: 1px 35px;
+    border-radius: 3px;
+    cursor:pointer;
+    white-space: nowrap;
+}
+
+.section-1 .button.install {
+    background:white;
+    color:#00a9e5;
+}
+
+.section-1 .button.trial {
+    background:#ffb600;
+    color:white;
+}
+
+.section-1 .elemento p{
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.section-1 .elemento div {
+    background: #ffffff45;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 1.6rem 0rem;
+    color: white;
+    margin-top: 1rem;
+    cursor: pointer;
+    white-space:nowrap;
+}
+
+span.wico-help, span.wico-start{
+    margin-right: .4rem;
+    font-size: 3rem;
+}
+
+/*=========================
+Section 2
+===========================*/
+
+.section-2 .element {
+    border: 2px solid #00a9e5;
+    border-radius: 4px;
+    color: #00a9e5;
+    text-align: center;
+    min-height:52px;
+    font-size:15px;
+    width:180px;
+    cursor:pointer;
+    padding:5px 0;
+}
+
+.section-2 .element.active{
+    background:#ffb600;
+    color:white;
+    border-color:transparent;
+}
+
+.section-2 .element .text {
+    width:65%;
+    float:right;
+    padding-right:5px;
+    margin-right:5px
+}
+
+.section-2 .element [class^="wico-"],
+.section-2 .element [class*=" wico-"]{
+    position: absolute;
+    font-size: 3rem;
+    top: -9px;
+    margin-left: 4px;
+}
+
+.section-2 .element.active [class^="wico-"],
+.section-2 .element.active [class*=" wico-"]{
+    color:white;
+}
+
+.section-2 .data-show{
+    background: #00a9e5;
+    padding: 1.5rem;
+    color: white;
+}
+
+/*=========================
+Section 3
+===========================*/
+
+.section-3 {
+    background-color:#f4f4f4;
+    background-image:url('../images/home_part02.png');
+    background-repeat:no-repeat;
+    background-position:bottom;
+    background-size:100% 40%;
+    padding-bottom:10rem;
+}
+
+.section-3 .top{
+    position:absolute;
+    width:100%;
+    left:0;
+}
+
+.section-3 .top img{
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.section-3 .bottom{
+    position:absolute;
+    width:100%;
+    left:0;
+    border:1px solid red;
+}
+
+.section-3 .bottom img{
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.section-3 .element{
+    margin-top:150px;
+}
+
+.section-3 .element h3{
+    color: #00a9e5;
+    font-weight:400;
+}
+
+.section-3 .element p{
+    line-height: 33px;
+    text-align: left;
+    font-size: 19px;
+}
+
+.section-3 .element img{
+    max-height:320px;
+}
+
+.section-3 .element .btn {
+    width:160px;
+    background: #00a9e5;
+    padding:0.3rem 0.5rem;
+    color:white;
+    cursor:pointer;
+}
+
+/*=========================
+Section 4
+===========================*/
+
+.section-4 .element h4{
+    font-weight:400;
+    color: #00a9e5;
+}
+
+.section-4 .element img{
+    width: 70%;
+    position:relative;
+    margin-bottom:-2rem;
+}
+
+.section-4 .element .text-content {
+    background:#f4f4f4;
+    border-radius:5px;
+    padding:1rem;
+    padding-top:3rem;
+}
+
+/*=========================
+Section 5
+===========================*/
+
+.section-5{
+    background-color:#00a9e5;
+}
+
+.section-5 .top{
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+.section-5 img{
+    max-height: 250px;
+    width: 100%;
+    left: 0;
+    position: absolute;
+}
+
+.section-5 .content{
+    margin-top:250px;
+    color:white;
+}
+
+.section-5 h1{
+    font-weight:400;
+}
+
+.section-5 .content{
+    display:inline-block;
+    text-align:center;
+}
+
+.section-5 .content .button-container{
+
+}
+
+.section-5 .content .button-container .btn {
+    width:200px;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:18px;
+}
+
+.section-5 .content .button-container .btn.install {
+    color:#00a9e5;
+    background:white;
+}
+
+.section-5 .content .button-container .btn.documentation {
+    background:#0094ce;
+    color:white;
+}
+
+/*=========================
+footer
+===========================*/
+
+.footer{
+    background:#0094ce;
+}
+
+.footer img{
+    width:150px;
+}
+
+.footer .contact-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left:0;
+}
+
+.footer .contact-list li:not(:first-child){
+    margin-left:20px;
+}
+
+.footer .element{
+
+}
+
+.footer .element ul{
+    margin: 0.75em 0;
+    padding: 0 1em;
+    list-style: none;
+}
+
+.footer .element ul li{
+    line-height:17px;
+}
+
+.footer h5{
+    font-weight:400;
+}
+
+.footer .element ul a{
+    color:white;
+}
+
+.footer .element ul li:before { 
+    content: "";
+    border-color: transparent white;
+    border-style: solid;
+    border-width: 0.25em 0 0.25em 0.40em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+    color:white;
+}
